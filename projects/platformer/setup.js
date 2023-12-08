@@ -74,7 +74,7 @@ let cannons = [];
 const cannonWidth = 118;
 const cannonHeight = 80;
 let projectiles = [];
-const defaultProjectileWidth = 24;
+const defaultProjectileWidth = 30;
 const defaultProjectileHeight = defaultProjectileWidth;
 const collectableWidth = 40;
 const collectableHeight = 40;
@@ -91,7 +91,7 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
+  database: { image: "images/collectables/Coin.jpg" },
   diamond: { image: "images/collectables/diamond-head.png" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
